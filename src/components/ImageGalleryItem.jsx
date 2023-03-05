@@ -19,10 +19,10 @@ function ImageGalleryItem({ image, largeImage, tags, onModal }) {
 }
 
 ImageGalleryItem.propTypes = {
-    image: PropTypes.string,
-    largeImage: PropTypes.string,
-    tags: PropTypes.string,
-    onModal: PropTypes.func,
+    image: PropTypes.string.isRequired,
+    largeImage: PropTypes.string.isRequired,
+    tags: PropTypes.string.isRequired,
+    onModal: PropTypes.func.isRequired,
 }
 
 export default ImageGalleryItem;
